@@ -1,0 +1,10 @@
+version: '3.6'
+
+services:
+  ping-client:
+    container_name: ping-client
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    network_mode: 'host'

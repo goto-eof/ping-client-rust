@@ -1,5 +1,5 @@
 [package]
-name = "ping-client-rust"
+name = "ping-client"
 version = "0.1.0"
 edition = "2021"
 authors = ["Andrei Dodu"]
